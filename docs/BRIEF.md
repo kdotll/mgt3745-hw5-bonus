@@ -1,0 +1,3 @@
+# BRIEF.md: The Decision Document
+
+This artifact is designed for campus recruiters and compliance hiring managers overwhelmed by high-volume, AI-padded entry-level accounting applications. The intended takeaway is that candidate evaluation cannot rely on uncalibrated keyword scans, but instead requires an explicit, deterministic knockout gate that separates verified, compliant submissions from unvetted applications. Static charts and tables fail to communicate the continuous, chaotic influx of applicants, whereas an interactive particle simulation in p5.js directly demonstrates dynamic flow, boundary filtering, and binary status segregation in real time before building backend infrastructure.

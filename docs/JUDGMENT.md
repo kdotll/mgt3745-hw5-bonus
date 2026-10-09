@@ -1,26 +1,14 @@
-# Judgment Eval: <feature>
+# JUDGMENT.md: Colleague Perception Review
 
-The seven checklist questions, extended to at least ten, specific to this
-feature and this STYLE.md. Two grader columns. If the second grader is a
-model, paste the prompt you gave it at the bottom and mark every disagreement.
-Agreement under 80 percent is a finding about the rubric, logged in EVALS.md.
+## Feedback on Artifact
+I showed the working p5.js simulation to a teammate (Regina Choi) without explaining its mechanics upfront.
 
-| # | Question (yes/no) | You | Grader 2 | Agree? |
-|---|---|---|---|---|
-| 1 | Only index.html, styles.css, app.js changed? | | | |
-| 2 | No innerHTML with user input anywhere in the diff? | | | |
-| 3 | No string-concatenated SQL in worker.js? | | | |
-| 4 | Every text color is a STYLE.md token? | | | |
-| 5 | Every font is a STYLE.md token? | | | |
-| 6 | No new dependency in package.json? | | | |
-| 7 | Data goes through the Worker, not local state alone? | | | |
-| 8 | When the Worker returns 400, the reason is shown on the page? | | | |
-| 9 | *your feature-specific question* | | | |
-| 10 | *your feature-specific question* | | | |
+- **What is this about?** "It looks like a screening checkpoint or filter. Dots are moving across a screen and getting split into green dots continuing forward and red dots falling down."
+- **Does it hold attention?** "Yes, the motion immediately shows flow and separation much faster than reading a text specification table."
+- **What would you change?** "Add a clear counter or legend showing how many dots are rejected versus passed so the recruiter can see the filtering efficiency."
 
-Agreement: __ of __ (__%)
+## The Binary
+- **Did it match your brief?** **Yes.** The viewer immediately recognized the visual as an automated triage filter separating flowing entities without any prior prompt or explanation.
 
-## Grader 2 prompt (if a model)
-```
-<paste here>
-```
+## Reaction & Alignment
+The observation confirms that the particle flow communicates binary knockout triage instantly. In response, I added color-coded labels identifying the yellow dots as incoming applicants and the red dots as ineligible candidates rejected by the compliance gate.

@@ -1,19 +1,9 @@
 # SKILLS.md
 
-Reusable patterns and delegation guidance, written so an agent (or a
-stranger) could apply them next time. Each entry under fifteen lines.
-Load-on-demand: an agent reads the heading first and the body only when relevant.
-
-## Pattern: fetch with the failure shown on the page
-**When:** any call from app.js to the Worker.
-**Do:** check `res.ok`; on failure, read `res.text()` and put it in the
-status element with `textContent`; wrap the call in try/catch for network
-errors; never throw to the console.
-**Because:** localStorage never failed; the network does (ADR-002).
-
-## Delegation guidance: what to paste, what to check first
-**Paste, in order:** PROJECT, FEATURES (rows marked), STYLE, STANDARDS, TOOLS, then the current page files. One instruction line naming the files it may touch.
-**Check first:** the diff's file list, then innerHTML / concatenated SQL, then whether it used the tokens.
-**Reliably wrong (this week):** *fill from your error-analysis log*
-
-## <your entry>
+### Skill: p5.js Interactive Concept Prototyping
+- **Context:** Using p5.js to rapidly prototype and communicate mechanical or procedural business rules visually before committing backend schema.
+- **Scoring Criteria:**
+  1. *Clarity:* A peer understands the represented system flow within 15 seconds without audio explanation.
+  2. *Containment:* All script logic is self-contained with no external build-chain dependencies.
+  3. *Performance:* Canvas runs smoothly at 60 FPS without unbounded memory consumption or memory leaks.
+- **Graduation Trigger:** When the visual prototype receives colleague validation in `JUDGMENT.md` and the underlying logic is successfully codified into EARS requirements in `FEATURES.md`.
